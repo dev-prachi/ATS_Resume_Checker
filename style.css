@@ -1,0 +1,76 @@
+/* Background */
+.stApp {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Main container */
+.block-container {
+    padding-top: 2rem;
+    max-width: 900px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #00e5ff;
+    font-weight: 700;
+}
+
+/* Subheaders */
+h2, h3 {
+    color: #ffcc70;
+}
+
+/* File uploader + text area */
+div[data-testid="stFileUploader"],
+div[data-testid="stTextArea"] textarea {
+    background-color: #1e293b;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    color: white;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    font-size: 16px;
+    border: none;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    transform: scale(1.05);
+}
+
+/* Score display */
+.score-box {
+    background-color: #020617;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    border: 2px solid #00e5ff;
+}
+
+/* Success / warning / error */
+.success {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.warning {
+    color: #facc15;
+    font-weight: bold;
+}
+
+.error {
+    color: #ef4444;
+    font-weight: bold;
+}
